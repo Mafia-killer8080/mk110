@@ -10,5 +10,5 @@ if bit == '64bit':
     from f1 import maping
     maping()
 elif bit == '32bit':
-    from Prohack import maping
+    from f1 import maping
     maping()
