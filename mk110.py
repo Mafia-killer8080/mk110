@@ -7,7 +7,7 @@ except:
 import requests
 bit = platform.architecture()[0]
 if bit == '64bit':
-    from f1 import maping
+    from mk110 import maping
     maping()
 elif bit == '32bit':
     from mk110 import maping
